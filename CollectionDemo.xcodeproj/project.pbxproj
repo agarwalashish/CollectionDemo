@@ -14,13 +14,27 @@
 		8FDDF5B518A70E7200E2F4A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDF5B418A70E7200E2F4A2 /* main.m */; };
 		8FDDF5B918A70E7200E2F4A2 /* CollectionDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDF5B818A70E7200E2F4A2 /* CollectionDemoAppDelegate.m */; };
 		8FDDF5BC18A70E7200E2F4A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5BA18A70E7200E2F4A2 /* Main.storyboard */; };
-		8FDDF5BF18A70E7200E2F4A2 /* CollectionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDF5BE18A70E7200E2F4A2 /* CollectionDemoViewController.m */; };
 		8FDDF5C118A70E7200E2F4A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5C018A70E7200E2F4A2 /* Images.xcassets */; };
 		8FDDF5C818A70E7200E2F4A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDDF5C718A70E7200E2F4A2 /* XCTest.framework */; };
 		8FDDF5C918A70E7200E2F4A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDDF5A818A70E7200E2F4A2 /* Foundation.framework */; };
 		8FDDF5CA18A70E7200E2F4A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDDF5AC18A70E7200E2F4A2 /* UIKit.framework */; };
 		8FDDF5D218A70E7200E2F4A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5D018A70E7200E2F4A2 /* InfoPlist.strings */; };
 		8FDDF5D418A70E7200E2F4A2 /* CollectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDF5D318A70E7200E2F4A2 /* CollectionDemoTests.m */; };
+		8FDDF5DF18A70F0400E2F4A2 /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDF5DE18A70F0400E2F4A2 /* MyCollectionViewController.m */; };
+		8FDDF5E218A70F9600E2F4A2 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDF5E118A70F9600E2F4A2 /* MyCollectionViewCell.m */; };
+		8FDDF5EF18A7174200E2F4A2 /* chevy_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5E318A7174200E2F4A2 /* chevy_small.jpg */; };
+		8FDDF5F018A7174200E2F4A2 /* ford_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5E418A7174200E2F4A2 /* ford_small.jpg */; };
+		8FDDF5F118A7174200E2F4A2 /* highlander_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5E518A7174200E2F4A2 /* highlander_small.jpg */; };
+		8FDDF5F218A7174200E2F4A2 /* honda_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5E618A7174200E2F4A2 /* honda_small.jpg */; };
+		8FDDF5F318A7174200E2F4A2 /* jeep_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5E718A7174200E2F4A2 /* jeep_small.jpg */; };
+		8FDDF5F418A7174200E2F4A2 /* mini_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5E818A7174200E2F4A2 /* mini_small.jpg */; };
+		8FDDF5F518A7174200E2F4A2 /* nissan_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5E918A7174200E2F4A2 /* nissan_small.jpg */; };
+		8FDDF5F618A7174200E2F4A2 /* rover_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5EA18A7174200E2F4A2 /* rover_small.jpg */; };
+		8FDDF5F718A7174200E2F4A2 /* smart_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5EB18A7174200E2F4A2 /* smart_small.jpg */; };
+		8FDDF5F818A7174200E2F4A2 /* venza_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5EC18A7174200E2F4A2 /* venza_small.jpg */; };
+		8FDDF5F918A7174200E2F4A2 /* volvo_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5ED18A7174200E2F4A2 /* volvo_small.jpg */; };
+		8FDDF5FA18A7174200E2F4A2 /* vw_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDDF5EE18A7174200E2F4A2 /* vw_small.jpg */; };
+		8FDDF5FD18A7372600E2F4A2 /* MySupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDF5FC18A7372600E2F4A2 /* MySupplementaryView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +59,30 @@
 		8FDDF5B718A70E7200E2F4A2 /* CollectionDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionDemoAppDelegate.h; sourceTree = "<group>"; };
 		8FDDF5B818A70E7200E2F4A2 /* CollectionDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionDemoAppDelegate.m; sourceTree = "<group>"; };
 		8FDDF5BB18A70E7200E2F4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8FDDF5BD18A70E7200E2F4A2 /* CollectionDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionDemoViewController.h; sourceTree = "<group>"; };
-		8FDDF5BE18A70E7200E2F4A2 /* CollectionDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionDemoViewController.m; sourceTree = "<group>"; };
 		8FDDF5C018A70E7200E2F4A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8FDDF5C618A70E7200E2F4A2 /* CollectionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDDF5C718A70E7200E2F4A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8FDDF5CF18A70E7200E2F4A2 /* CollectionDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionDemoTests-Info.plist"; sourceTree = "<group>"; };
 		8FDDF5D118A70E7200E2F4A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FDDF5D318A70E7200E2F4A2 /* CollectionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionDemoTests.m; sourceTree = "<group>"; };
+		8FDDF5DD18A70F0400E2F4A2 /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		8FDDF5DE18A70F0400E2F4A2 /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		8FDDF5E018A70F9600E2F4A2 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		8FDDF5E118A70F9600E2F4A2 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		8FDDF5E318A7174200E2F4A2 /* chevy_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chevy_small.jpg; sourceTree = "<group>"; };
+		8FDDF5E418A7174200E2F4A2 /* ford_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ford_small.jpg; sourceTree = "<group>"; };
+		8FDDF5E518A7174200E2F4A2 /* highlander_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = highlander_small.jpg; sourceTree = "<group>"; };
+		8FDDF5E618A7174200E2F4A2 /* honda_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = honda_small.jpg; sourceTree = "<group>"; };
+		8FDDF5E718A7174200E2F4A2 /* jeep_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeep_small.jpg; sourceTree = "<group>"; };
+		8FDDF5E818A7174200E2F4A2 /* mini_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mini_small.jpg; sourceTree = "<group>"; };
+		8FDDF5E918A7174200E2F4A2 /* nissan_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nissan_small.jpg; sourceTree = "<group>"; };
+		8FDDF5EA18A7174200E2F4A2 /* rover_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rover_small.jpg; sourceTree = "<group>"; };
+		8FDDF5EB18A7174200E2F4A2 /* smart_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smart_small.jpg; sourceTree = "<group>"; };
+		8FDDF5EC18A7174200E2F4A2 /* venza_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venza_small.jpg; sourceTree = "<group>"; };
+		8FDDF5ED18A7174200E2F4A2 /* volvo_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = volvo_small.jpg; sourceTree = "<group>"; };
+		8FDDF5EE18A7174200E2F4A2 /* vw_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vw_small.jpg; sourceTree = "<group>"; };
+		8FDDF5FB18A7372600E2F4A2 /* MySupplementaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySupplementaryView.h; sourceTree = "<group>"; };
+		8FDDF5FC18A7372600E2F4A2 /* MySupplementaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySupplementaryView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +145,12 @@
 				8FDDF5B718A70E7200E2F4A2 /* CollectionDemoAppDelegate.h */,
 				8FDDF5B818A70E7200E2F4A2 /* CollectionDemoAppDelegate.m */,
 				8FDDF5BA18A70E7200E2F4A2 /* Main.storyboard */,
-				8FDDF5BD18A70E7200E2F4A2 /* CollectionDemoViewController.h */,
-				8FDDF5BE18A70E7200E2F4A2 /* CollectionDemoViewController.m */,
+				8FDDF5FB18A7372600E2F4A2 /* MySupplementaryView.h */,
+				8FDDF5FC18A7372600E2F4A2 /* MySupplementaryView.m */,
+				8FDDF5E018A70F9600E2F4A2 /* MyCollectionViewCell.h */,
+				8FDDF5E118A70F9600E2F4A2 /* MyCollectionViewCell.m */,
+				8FDDF5DD18A70F0400E2F4A2 /* MyCollectionViewController.h */,
+				8FDDF5DE18A70F0400E2F4A2 /* MyCollectionViewController.m */,
 				8FDDF5C018A70E7200E2F4A2 /* Images.xcassets */,
 				8FDDF5AF18A70E7200E2F4A2 /* Supporting Files */,
 			);
@@ -126,6 +160,18 @@
 		8FDDF5AF18A70E7200E2F4A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8FDDF5E318A7174200E2F4A2 /* chevy_small.jpg */,
+				8FDDF5E418A7174200E2F4A2 /* ford_small.jpg */,
+				8FDDF5E518A7174200E2F4A2 /* highlander_small.jpg */,
+				8FDDF5E618A7174200E2F4A2 /* honda_small.jpg */,
+				8FDDF5E718A7174200E2F4A2 /* jeep_small.jpg */,
+				8FDDF5E818A7174200E2F4A2 /* mini_small.jpg */,
+				8FDDF5E918A7174200E2F4A2 /* nissan_small.jpg */,
+				8FDDF5EA18A7174200E2F4A2 /* rover_small.jpg */,
+				8FDDF5EB18A7174200E2F4A2 /* smart_small.jpg */,
+				8FDDF5EC18A7174200E2F4A2 /* venza_small.jpg */,
+				8FDDF5ED18A7174200E2F4A2 /* volvo_small.jpg */,
+				8FDDF5EE18A7174200E2F4A2 /* vw_small.jpg */,
 				8FDDF5B018A70E7200E2F4A2 /* CollectionDemo-Info.plist */,
 				8FDDF5B118A70E7200E2F4A2 /* InfoPlist.strings */,
 				8FDDF5B418A70E7200E2F4A2 /* main.m */,
@@ -230,8 +276,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FDDF5C118A70E7200E2F4A2 /* Images.xcassets in Resources */,
+				8FDDF5F318A7174200E2F4A2 /* jeep_small.jpg in Resources */,
+				8FDDF5F618A7174200E2F4A2 /* rover_small.jpg in Resources */,
+				8FDDF5EF18A7174200E2F4A2 /* chevy_small.jpg in Resources */,
+				8FDDF5FA18A7174200E2F4A2 /* vw_small.jpg in Resources */,
+				8FDDF5F218A7174200E2F4A2 /* honda_small.jpg in Resources */,
+				8FDDF5F718A7174200E2F4A2 /* smart_small.jpg in Resources */,
+				8FDDF5F418A7174200E2F4A2 /* mini_small.jpg in Resources */,
+				8FDDF5F518A7174200E2F4A2 /* nissan_small.jpg in Resources */,
+				8FDDF5F918A7174200E2F4A2 /* volvo_small.jpg in Resources */,
 				8FDDF5B318A70E7200E2F4A2 /* InfoPlist.strings in Resources */,
+				8FDDF5F118A7174200E2F4A2 /* highlander_small.jpg in Resources */,
+				8FDDF5F018A7174200E2F4A2 /* ford_small.jpg in Resources */,
 				8FDDF5BC18A70E7200E2F4A2 /* Main.storyboard in Resources */,
+				8FDDF5F818A7174200E2F4A2 /* venza_small.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +310,9 @@
 			files = (
 				8FDDF5B518A70E7200E2F4A2 /* main.m in Sources */,
 				8FDDF5B918A70E7200E2F4A2 /* CollectionDemoAppDelegate.m in Sources */,
-				8FDDF5BF18A70E7200E2F4A2 /* CollectionDemoViewController.m in Sources */,
+				8FDDF5E218A70F9600E2F4A2 /* MyCollectionViewCell.m in Sources */,
+				8FDDF5FD18A7372600E2F4A2 /* MySupplementaryView.m in Sources */,
+				8FDDF5DF18A70F0400E2F4A2 /* MyCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

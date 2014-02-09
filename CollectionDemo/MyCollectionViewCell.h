@@ -1,5 +1,5 @@
 //
-//  CollectionDemoViewController.h
+//  MyCollectionViewCell.h
 //  CollectionDemo
 //
 //  Created by Ashish Agarwal on 2014-02-08.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CollectionDemoViewController : UIViewController
+@interface MyCollectionViewCell : UICollectionViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
